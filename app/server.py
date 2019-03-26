@@ -9,10 +9,11 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://colab.research.google.com/drive/16iSGdXo7p4P4y4LxzCB5GMWzSGGO7-JG'
+export_file_url = 'https://drive.google.com/file/d/1_WlwOeuIl-MzYH118cHyEe0lY7DV-xdp/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ['0', '1', '2','3','4','5','6','7','8','9']
+# classes = ['black', 'grizzly', 'teddys']
+classes = ['1', '2', '3','4','5','6','7','8','9']
 path = Path(__file__).parent
 
 app = Starlette()
